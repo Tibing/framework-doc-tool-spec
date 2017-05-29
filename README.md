@@ -3,7 +3,7 @@
 ## Functionality:
 
 - Generating documentation based on project structure and custom configuration.
-- Generating custom [JSON based documentation format](custom-format.md).
+- Generating custom [JSON based documentation format](custom-format-spec.md).
 - Plugin based architecture:
   - plugins for different languages
   - plugins for different frameworks
