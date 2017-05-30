@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "language": "ts",
+    "framework": "react"
+  },
+
+  "modules": [
+    {
+      "providers": [],
+      "declarations": [],
+      "imports": [],
+      "exports": [],
+      "entryComponents": [],
+      "bootstrap": [],
+      "schemas": []
+    }
+  ],
+
+  "components": [
+    {
+      "name": "lalalal component",
+      "description": "some super interesting description",
+
+      "metadata": {
+        "selector": "",
+        "changeDetection": "",
+        "encapsulation": "",
+        "entryComponents": "",
+        "exportAs": "",
+        "all props from": "https://angular.io/docs/ts/latest/api/core/index/Component-decorator.html"
+      },
+
+      "props": {
+        "inputs": [
+          {
+            "name": "input public name",
+            "type": "input type",
+            "setter": "setter description??",
+            "getter": "getter description??",
+            "description": "some super interesting description"
+          }
+        ],
+
+        "outputs": [
+          {
+            "name": "output name",
+            "type": "type of the object which will be emitted",
+            "description": "some super interesting description"
+          }
+        ]
+      },
+
+      "constructor": {
+        "params": "constructor params"
+      },
+
+      "methods": [
+        {
+          "name": "method name",
+          "params": "method parameters",
+          "type": "output type",
+          "description": "some super interesting description"
+        }
+      ]
+    }
+  ],
+
+  "services": [],
+
+  "directives": [],
+
+  "pipes": []
+}
