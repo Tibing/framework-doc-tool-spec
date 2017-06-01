@@ -1,74 +1,64 @@
 {
   "metadata": {
     "language": "ts",
+    "generator": "typedoc",
     "framework": "react"
   },
 
-  "modules": [
-    {
-      "providers": [],
-      "declarations": [],
-      "imports": [],
-      "exports": [],
-      "entryComponents": [],
-      "bootstrap": [],
-      "schemas": []
-    }
-  ],
-
-  "components": [
+  "classes": [
     {
       "name": "lalalal component",
+      "kind": "component|class",
+      "shortDescription": "some super interesting description",
       "description": "some super interesting description",
       "platform": "react only",
+      
+      "examples": [
+        {
+          "description": "some descr",
+          "code": "<some code>"
+        }
+      ],
 
-      "metadata": {
-        "all props from": "https://angular.io/docs/ts/latest/api/core/index/Component-decorator.html",
-        "extends": "",
-        "implements??": ""
-      },
-
-      "props": {
-        "inputs": [
+      "props": [
           {
+            "kind": "input/output/prop",
             "name": "input public name",
-            "type": "input type",
+            "defaultValue": "",
+            "static": "true|false",
+            "type": "string|null",
             "required": "true/false",
             "platform": "react only",
-            "setter": "setter description??",
-            "getter": "getter description??",
+            "shortDescription": "some super interesting description",
             "description": "some super interesting description"
           }
-        ],
-
-        "outputs": [
-          {
-            "name": "output name",
-            "type": "type of the object which will be emitted",
-            "description": "some super interesting description"
-          }
-        ]
-      },
-
-      "constructor": {
-        "params": "constructor params"
-      },
+      ],
 
       "methods": [
         {
           "name": "method name",
-          "params": "method parameters",
           "platform": "react only",
           "type": "output type",
-          "description": "some super interesting description"
+          "static": "true|false",
+          "shortDescription": "some super interesting description",
+          "description": "some super interesting description",
+          "params": [
+            {
+              "name": "input public name",
+              "type": "string|null",
+              "required": "true/false",
+              "shortDescription": "some super interesting description",
+              "description": "some super interesting description"
+            }
+          ],
+          "examples": [
+            {
+              "description": "some descr",
+              "code": "<some code>"
+            }
+          ]
         }
       ]
     }
-  ],
-
-  "services": [],
-
-  "directives": [],
-
-  "pipes": []
+  ]
 }
